@@ -1,0 +1,17 @@
+- Tạo tên và email:
+ 	+ Tạo tên: git config --global user.name "VanThong"
+	+ Nhập email: git config --global user.email "thongvanpro2002@gmail.com"
+	+ Kiểm tra: git config --list
+--------------------------------------------------------------------------------
+- Kết nối GitHub:
+	+ Kết nối: git remote add origin [link]
+	+ Tải về: git clone [link]
+--------------------------------------------------------------------------------
+
+Thêm file vào init: git add [tên file] hoặc *
+Ghi chú: git commit -m "hehe" 
+Thay đổi ghi chú:  git commit --amend -m "hoho"
+
+--------------------------------------------------------------------------------
+- Up lên github:
+	git push -u origin [Tên Nhánh]
